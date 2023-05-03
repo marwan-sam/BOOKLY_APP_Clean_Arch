@@ -2,8 +2,8 @@ import 'package:bookly_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 
 import 'app_bar_home.dart';
-import 'list_view_horizontal.dart';
-import 'list_view_vertical.dart';
+// import 'list_view_horizontal.dart';
+// import 'list_view_vertical.dart';
 
 class HomeScreenBody extends StatelessWidget {
   const HomeScreenBody({super.key});

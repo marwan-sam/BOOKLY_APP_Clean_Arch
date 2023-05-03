@@ -12,7 +12,7 @@ void main() async {
   Hive.registerAdapter(BookEntityAdapter());
   // setupLocator();
   await Hive.openBox<BookEntity>(keyFeatureBoxHive);
-  await Hive.openBox<BookEntity>(keyFeatureBoxHive);
+  await Hive.openBox<BookEntity>(keyNewsBoxHive);
   runApp(const BooklyApp());
 }
 
